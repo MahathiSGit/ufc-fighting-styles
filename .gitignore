@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data (regenerate with load_data.py and build_dataset.py)
+data/
+
+# Generated outputs
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scratch scripts from debugging the failed scraper
+scrape_windows.py
+diag.py
+diag2.py
+diag3.py
